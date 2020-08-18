@@ -28,7 +28,7 @@ class ReviewScrapperModuleSpider(scrapy.Spider):
     read_excel()
 
     name = 'ReviewScrapperModule'
-    allowed_domains = ['https://www.amazon.com/']
+    allowed_domains = ['www.amazon.com']
     start_urls = []
 
     # Creating list of urls
